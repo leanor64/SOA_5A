@@ -43,11 +43,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="fr.insa.ws.soap"/>
 			<item value="fr.insa.ws.applibenevolat"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="AppliSOAP"/>
 			<item value="AppliBenevolat"/>
 		</list>
 		<list key="projectNameTemplate">
