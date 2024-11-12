@@ -15,31 +15,40 @@ import javax.jws.WebService;
 public class GestionUtilisateursWS {
 	
 	@WebMethod(operationName="creation")
-	public void creationUtilisateur(@WebParam(name="nom") String nom, @WebParam(name="prenom") String prenom, @WebParam(name="age") int age, @WebParam(name="role") int role, @WebParam(name="adresse") String adresse, @WebParam(name="email") String email, @WebParam(name="mdp") String mdp) {
+	public void creationUtilisateur(@WebParam(name="nom") String nom,
+									@WebParam(name="prenom") String prenom,
+									@WebParam(name="age") int age,
+									@WebParam(name="role") int role,
+									@WebParam(name="adresse") String adresse,
+									@WebParam(name="email") String email,
+									@WebParam(name="mdp") String mdp) {
 		
 		
-		String url = "jdbc:mysql://srv-bdens.insa-toulouse.fr:3306/";
-		String user = "projet_gei_059";
-		String passwd = "ooB2quae";
+		//String commande = "INSERT into users VALUES ('" +nom+ "','" +prenom+ "','" +age+"','" +role+ "','" +email+"','" +adresse+"','" +mdp+"');";
+		System.out.println ("L\'utilisateur" +nom+ " a été ajouté !");
+	}
+	
+	@WebMethod(operationName="suppression")
+	public void suppressionUtilisateur(@WebParam(name="email") String email) {
 		
-		try {
-		    Connection conn = DriverManager.getConnection(url, user, passwd);            	    
-		    Statement state = conn.createStatement();
-		    
-		    //insérer la personne dans la database
-			String commande = "INSERT into users VALUES ('" +nom+ "','" +prenom+ "','" +age+"','" +role+ "','" +email+"','" +adresse+"','" +mdp+"');";
-		    state.executeUpdate(commande);
-	        
-	        //fermer la connexion avec la base de données
-	        state.close();
-			conn.close();
-		} catch (Exception e){
-		    e.printStackTrace();
-		    System.out.println("Erreur..............................");
-			System.exit(0);
-	    }
+		//String commande = "DELETE FROM users WHERE email='"+email+"';";
+		System.out.println ("L\'utilisateur a été supprimé !");
+	}
+	
+	
+	@WebMethod(operationName="modification")
+	public void modificationUtilisateur(@WebParam(name="nom") String nom,
+			@WebParam(name="prenom") String prenom,
+			@WebParam(name="age") int age,
+			@WebParam(name="role") int role,
+			@WebParam(name="adresse") String adresse,
+			@WebParam(name="email") String email,
+			@WebParam(name="mdp") String mdp) {
 		
-		System.out.println (nom+ " a été ajouté !");
+		//String commande = "UPDATE users SET nom='" +nom+ "', prenom='" +prenom+ "', age='" +age+"', role='" +role+ "', adresse='" +adresse+"', mdp='" +mdp+"' WHERE email='"+email+"';";
+		System.out.println ("L\'utilisateur" +nom+ " a été modifié !");
+	
+	
 	}
 
 }

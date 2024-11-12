@@ -960,3 +960,520 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2024-11-06 18:03:52,283 [Framework stop - Equinox Container: 86e00263-35aa-426d-92ee-76d436eaf65a] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@f7f15a3{STOPPING}[12.0.12,sto=0]
 2024-11-06 18:03:52,286 [Framework stop - Equinox Container: 86e00263-35aa-426d-92ee-76d436eaf65a] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1bad6dbd{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
 2024-11-12 09:29:55,901 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-12 09:37:08,935 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 09:37:08,940 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-12 09:37:08,968 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 09:37:08,970 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-12 09:38:00,616 [Worker-21: Launching SOAPApplication] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 09:38:00,619 [Worker-21: Launching SOAPApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-12 09:38:00,622 [Worker-21: Launching SOAPApplication] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 09:38:00,628 [Worker-21: Launching SOAPApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-12 09:53:44,381 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 09:53:44,393 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-12 09:53:44,402 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 09:53:44,407 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-12 09:55:19,774 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 09:55:19,779 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-12 09:55:19,783 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 09:55:19,788 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-12 10:01:05,447 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 10:01:05,453 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-12 10:01:05,459 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 10:01:05,462 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-12 10:02:38,554 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 10:02:38,558 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-12 10:02:38,561 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 10:02:38,564 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-12 10:05:03,156 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 10:05:03,163 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-12 10:05:03,167 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 10:05:03,171 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-12 10:07:10,375 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 10:07:10,380 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-12 10:07:10,385 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 10:07:10,388 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-12 10:17:15,005 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [639])
+2024-11-12 10:17:15,007 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-11-12 10:17:15,008 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/aopalliance-1.0.jar
+2024-11-12 10:17:15,008 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/guice-5.1.0.jar
+2024-11-12 10:17:15,009 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/httpclient-4.5.14.jar
+2024-11-12 10:17:15,009 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/httpcore-4.4.16.jar
+2024-11-12 10:17:15,010 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/jansi-2.4.1.jar
+2024-11-12 10:17:15,010 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/jcl-over-slf4j-1.7.36.jar
+2024-11-12 10:17:15,010 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-artifact-3.9.9.jar
+2024-11-12 10:17:15,011 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-builder-support-3.9.9.jar
+2024-11-12 10:17:15,011 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-compat-3.9.9.jar
+2024-11-12 10:17:15,011 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-core-3.9.9.jar
+2024-11-12 10:17:15,012 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-embedder-3.9.9.jar
+2024-11-12 10:17:15,012 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-model-3.9.9.jar
+2024-11-12 10:17:15,012 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-model-builder-3.9.9.jar
+2024-11-12 10:17:15,012 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-plugin-api-3.9.9.jar
+2024-11-12 10:17:15,013 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-repository-metadata-3.9.9.jar
+2024-11-12 10:17:15,014 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-resolver-api-1.9.22.jar
+2024-11-12 10:17:15,015 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-resolver-connector-basic-1.9.22.jar
+2024-11-12 10:17:15,015 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-resolver-impl-1.9.22.jar
+2024-11-12 10:17:15,015 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-resolver-named-locks-1.9.22.jar
+2024-11-12 10:17:15,016 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-resolver-provider-3.9.9.jar
+2024-11-12 10:17:15,016 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-resolver-spi-1.9.22.jar
+2024-11-12 10:17:15,017 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-resolver-transport-file-1.9.22.jar
+2024-11-12 10:17:15,017 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-resolver-transport-http-1.9.22.jar
+2024-11-12 10:17:15,017 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-resolver-transport-wagon-1.9.22.jar
+2024-11-12 10:17:15,018 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-resolver-util-1.9.22.jar
+2024-11-12 10:17:15,018 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-settings-3.9.9.jar
+2024-11-12 10:17:15,018 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-settings-builder-3.9.9.jar
+2024-11-12 10:17:15,019 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/maven-shared-utils-3.4.2.jar
+2024-11-12 10:17:15,019 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-11-12 10:17:15,020 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-11-12 10:17:15,020 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/plexus-build-api-0.0.7.jar
+2024-11-12 10:17:15,020 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/plexus-build-api-1.2.0.jar
+2024-11-12 10:17:15,021 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/plexus-cipher-2.0.jar
+2024-11-12 10:17:15,021 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/plexus-classworlds-2.8.0.jar
+2024-11-12 10:17:15,021 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/plexus-component-annotations-2.1.0.jar
+2024-11-12 10:17:15,021 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/plexus-interpolation-1.27.jar
+2024-11-12 10:17:15,022 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/plexus-sec-dispatcher-2.0.jar
+2024-11-12 10:17:15,022 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/plexus-utils-3.5.1.jar
+2024-11-12 10:17:15,022 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/plexus-xml-3.0.1.jar
+2024-11-12 10:17:15,023 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/wagon-file-3.5.3.jar
+2024-11-12 10:17:15,023 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/wagon-http-3.5.3.jar
+2024-11-12 10:17:15,023 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/wagon-http-shared-3.5.3.jar
+2024-11-12 10:17:15,024 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409/jars/wagon-provider-api-3.5.3.jar
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [16])
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/com.google.guava_33.3.0.jre.jar
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [1003])
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/slf4j.api_2.0.16.jar
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [34])
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [29])
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/jakarta.annotation-api_1.3.5.jar
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [78])
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.apache.commons.cli_1.9.0.jar
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/org.apache.commons.commons-codec_1.16.0.jar
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [17])
+2024-11-12 10:17:15,025 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: /usr/local/insa/eclipse/pool/plugins/com.google.guava.failureaccess_1.0.2.jar
+2024-11-12 10:17:15,035 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/tmp/m2e-archetypeGenerator6239770981265887994":
+2024-11-12 10:17:15,035 [Worker-23: Launching mavenrun-6f87e688-e345-481e-a61f-1e06168bc09f] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.glassfish.jersey.archetypes -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeVersion=4.0.0-M1 -DgroupId=fr.insa.soa -DartifactId=AppliREST -Dversion=0.0.1-SNAPSHOT -Dpackage=fr.insa.soa.AppliREST -DoutputDirectory=/home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat -Dstyle.color=always -U archetype:generate
+2024-11-12 10:17:40,766 [Worker-35: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml
+2024-11-12 10:17:45,595 [Worker-35: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:17:48,888 [Worker-35: Creating jersey-quickstart-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:17:48,889 [Worker-35: Creating jersey-quickstart-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:17:48,908 [Worker-35: Creating jersey-quickstart-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:17:48,908 [Worker-35: Creating jersey-quickstart-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:17:50,224 [Worker-35: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 9 sec
+2024-11-12 10:17:50,651 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:17:50,653 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:17:51,553 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:17:51,555 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:20:34,772 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:20:36,759 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:20:38,477 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:20:38,478 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:20:38,478 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:20:38,479 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:20:38,701 [Worker-38: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:20:38,881 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 3,00 sec, update config takes 0,00 sec 
+2024-11-12 10:20:39,056 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:20:39,058 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:20:39,058 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:20:39,080 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:20:43,428 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:20:45,523 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:20:45,528 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:20:45,528 [Worker-39: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:20:45,528 [Worker-39: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:20:45,639 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:20:47,119 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:20:48,170 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:20:48,170 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:20:48,171 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:20:48,171 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:20:49,022 [Worker-36: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:20:49,045 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 0,00 sec 
+2024-11-12 10:20:49,138 [Worker-35: Building Project AppliREST] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:20:49,140 [Worker-35: Building Project AppliREST] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:20:49,140 [Worker-35: Building Project AppliREST] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:20:49,140 [Worker-35: Building Project AppliREST] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:20:50,215 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:20:51,224 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:20:52,560 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:20:52,561 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:20:52,562 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:20:52,562 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:20:52,741 [Worker-23: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:20:52,772 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 0,00 sec 
+2024-11-12 10:20:52,987 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:20:52,988 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:20:52,988 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:20:52,988 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:23:19,765 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:23:20,873 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:23:20,874 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:23:20,874 [Worker-38: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:23:20,874 [Worker-38: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:23:25,511 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:23:26,612 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:23:27,894 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:23:27,894 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:23:27,894 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:23:27,895 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:23:28,000 [Worker-40: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:23:28,064 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 0,00 sec 
+2024-11-12 10:23:28,237 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:23:28,238 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:23:28,238 [Worker-39: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:23:28,238 [Worker-39: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:25:00,168 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:25:00,435 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-binding/4.0.0-M1/jersey-media-json-binding-4.0.0-M1.pom
+2024-11-12 10:25:00,446 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-binding/4.0.0-M1/jersey-media-json-binding-4.0.0-M1.pom
+2024-11-12 10:25:00,496 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/project/4.0.0-M1/project-4.0.0-M1.pom
+2024-11-12 10:25:00,507 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/project/4.0.0-M1/project-4.0.0-M1.pom
+2024-11-12 10:25:00,555 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/2.1.3/jakarta.json-api-2.1.3.pom
+2024-11-12 10:25:00,575 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/2.1.3/jakarta.json-api-2.1.3.pom
+2024-11-12 10:25:00,670 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/parsson/parsson/1.1.5/parsson-1.1.5.pom
+2024-11-12 10:25:00,690 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/parsson/parsson/1.1.5/parsson-1.1.5.pom
+2024-11-12 10:25:00,744 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/parsson/project/1.1.5/project-1.1.5.pom
+2024-11-12 10:25:00,762 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/parsson/project/1.1.5/project-1.1.5.pom
+2024-11-12 10:25:01,036 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-binding/4.0.0-M1/jersey-media-json-binding-4.0.0-M1.jar
+2024-11-12 10:25:01,058 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-binding/4.0.0-M1/jersey-media-json-binding-4.0.0-M1.jar
+2024-11-12 10:25:01,088 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/2.1.3/jakarta.json-api-2.1.3.jar
+2024-11-12 10:25:01,110 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/2.1.3/jakarta.json-api-2.1.3.jar
+2024-11-12 10:25:01,141 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/parsson/parsson/1.1.5/parsson-1.1.5.jar
+2024-11-12 10:25:01,206 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/parsson/parsson/1.1.5/parsson-1.1.5.jar
+2024-11-12 10:25:02,020 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:25:02,021 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:25:02,022 [Worker-35: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:25:02,022 [Worker-35: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:25:03,067 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-binding/4.0.0-M1/jersey-media-json-binding-4.0.0-M1-sources.jar
+2024-11-12 10:25:03,079 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-binding/4.0.0-M1/jersey-media-json-binding-4.0.0-M1-sources.jar
+2024-11-12 10:25:03,094 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jersey.media:jersey-media-json-binding:4.0.0-M1
+2024-11-12 10:25:03,184 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/2.1.3/jakarta.json-api-2.1.3-sources.jar
+2024-11-12 10:25:03,228 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/2.1.3/jakarta.json-api-2.1.3-sources.jar
+2024-11-12 10:25:03,239 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.json:jakarta.json-api:2.1.3
+2024-11-12 10:25:03,324 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/parsson/parsson/1.1.5/parsson-1.1.5-sources.jar
+2024-11-12 10:25:03,368 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/parsson/parsson/1.1.5/parsson-1.1.5-sources.jar
+2024-11-12 10:25:03,380 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.parsson:parsson:1.1.5
+2024-11-12 10:25:04,354 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:25:05,071 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:25:05,932 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:25:05,933 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:25:05,933 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:25:05,933 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:25:06,066 [Worker-38: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:25:06,095 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-11-12 10:25:06,274 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:25:06,276 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:25:06,276 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:25:06,276 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:25:55,049 [Worker-37: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:25:56,809 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:25:56,813 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:25:56,814 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:25:56,814 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:25:59,681 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:26:00,559 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:26:01,597 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:26:01,597 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:26:01,597 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:26:01,597 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:26:01,733 [Worker-41: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:26:01,831 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-11-12 10:26:02,004 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:26:02,005 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:26:02,006 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:26:02,006 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:28:13,933 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:28:16,158 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:28:16,159 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:28:16,159 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:28:16,159 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:28:16,401 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:28:17,474 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:28:18,620 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:28:18,620 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:28:18,620 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:28:18,620 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:28:18,917 [Worker-39: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:28:19,025 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 0,00 sec 
+2024-11-12 10:28:19,433 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:28:19,437 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:28:19,438 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:28:19,438 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:28:30,233 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:28:31,166 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:28:31,167 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:28:31,167 [Worker-39: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:28:31,167 [Worker-39: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:28:37,449 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:28:38,207 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:28:38,835 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:28:38,835 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:28:38,835 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:28:38,835 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:28:38,973 [Worker-41: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:28:38,998 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-11-12 10:28:39,160 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:28:39,162 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:28:39,162 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:28:39,162 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:28:48,157 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:28:48,911 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:28:48,912 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:28:48,912 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:28:48,912 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:32:20,278 [Worker-41: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:32:21,446 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:32:21,447 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:32:21,447 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:32:21,447 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:35:14,158 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:RestProject:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:35:14,951 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:35:14,953 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:35:14,953 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:35:14,953 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:35:27,585 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:35:28,604 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:RestProject:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:35:29,764 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:35:29,765 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:35:29,765 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:35:29,766 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:35:30,095 [Worker-36: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:35:30,127 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 0,00 sec 
+2024-11-12 10:35:30,348 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:35:30,349 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:35:30,350 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:35:30,350 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:37:18,588 [Worker-37: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:RestProject:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:37:19,353 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:37:19,355 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:37:19,355 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:37:19,355 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:37:25,140 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:37:25,989 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:37:26,735 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:37:26,736 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:37:26,736 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:37:26,736 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:37:27,223 [Worker-35: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:37:27,370 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-11-12 10:37:27,614 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:37:27,615 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:37:27,615 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:37:27,615 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:37:35,411 [Worker-44: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:37:36,069 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:37:36,070 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:37:36,070 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:37:36,070 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:39:41,577 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:39:43,516 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:39:43,521 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:39:43,521 [Worker-35: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:39:43,522 [Worker-35: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:39:50,931 [Worker-37: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:39:51,847 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:39:51,849 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:39:51,850 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:39:51,850 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:39:54,877 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:39:56,421 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:39:56,973 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:39:56,974 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:39:56,974 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:39:56,974 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:39:57,124 [Worker-42: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:39:57,153 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 0,00 sec 
+2024-11-12 10:39:57,388 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:39:57,389 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:39:57,389 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:39:57,389 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:41:40,961 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:41:40,963 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:41:47,859 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:41:48,842 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:41:49,825 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:41:49,825 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:41:49,825 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:41:49,825 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:41:49,931 [Worker-44: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:41:49,960 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-11-12 10:41:50,120 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:41:50,121 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:41:50,121 [Worker-42: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:41:50,121 [Worker-42: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:49:45,936 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:49:45,937 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:50:07,657 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:50:08,817 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:50:09,744 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:50:09,744 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:50:09,744 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:50:09,744 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:50:09,864 [Worker-47: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:50:09,997 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 0,00 sec 
+2024-11-12 10:50:10,221 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:50:10,222 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:50:10,222 [Worker-49: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:50:10,222 [Worker-49: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:50:16,375 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:50:17,329 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:50:17,330 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:50:17,330 [Worker-46: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:50:17,330 [Worker-46: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:50:18,472 [Worker-44: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar
+2024-11-12 10:50:18,545 [Worker-44: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar
+2024-11-12 10:50:18,556 [Worker-44: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:javax.servlet-api:3.1.0
+2024-11-12 10:50:20,496 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:50:21,245 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:50:21,957 [Worker-49: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:50:21,957 [Worker-49: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:50:21,957 [Worker-49: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:50:21,957 [Worker-49: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:50:22,083 [Worker-49: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:50:22,108 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-11-12 10:50:22,289 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:50:22,290 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:50:22,290 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:50:22,290 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:52:50,057 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:52:51,249 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:52:52,099 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:52:52,100 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:52:52,100 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:52:52,100 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:52:52,256 [Worker-48: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:52:52,299 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-11-12 10:52:52,520 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:52:52,522 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:52:52,522 [Worker-47: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:52:52,522 [Worker-47: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:54:21,999 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:54:22,002 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:54:25,441 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:54:25,442 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:54:28,715 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:54:28,716 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:55:10,309 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:55:10,310 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:55:17,445 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:55:18,506 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:55:19,143 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:55:19,143 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:55:19,143 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:55:19,143 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:55:19,287 [Worker-35: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:55:19,335 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-11-12 10:55:19,533 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:55:19,533 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:55:19,534 [Worker-48: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:55:19,534 [Worker-48: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:55:45,347 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:55:45,348 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:55:53,897 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:55:53,897 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:56:05,930 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:56:05,933 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:56:15,927 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:56:15,928 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:58:06,941 [Worker-44: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:58:07,871 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:58:07,874 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:58:07,874 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:58:07,874 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:58:18,015 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 10:58:18,593 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 10:58:19,359 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 10:58:19,359 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 10:58:19,359 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 10:58:19,359 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 10:58:19,424 [Worker-48: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 10:58:19,491 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-11-12 10:58:19,690 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:58:19,691 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 10:58:19,691 [Worker-48: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 10:58:19,691 [Worker-48: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 10:59:00,421 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 10:59:00,422 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 11:02:12,699 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 11:02:12,701 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 11:02:25,437 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 11:02:26,640 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 11:02:27,938 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 11:02:27,938 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 11:02:27,939 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 11:02:27,939 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 11:02:28,035 [Worker-48: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 11:02:28,116 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 0,00 sec 
+2024-11-12 11:02:28,338 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 11:02:28,341 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 11:02:28,341 [Worker-35: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 11:02:28,341 [Worker-35: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 11:06:59,972 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 11:06:59,974 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 11:09:15,808 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 11:09:15,810 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 11:11:45,532 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.0.12; built: 2024-07-25T21:58:37.668Z; git: cc6f1b74db755fed228b50701ad967aeaa68e83f; jvm 22.0.2+9
+2024-11-12 11:11:45,606 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@36fc0837{/wse,/wse,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@72cf102c{STARTED}}
+2024-11-12 11:11:45,606 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-11-12 11:11:45,614 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@498e4f5d{HTTP/1.1, (http/1.1)}{0.0.0.0:44169}
+2024-11-12 11:11:45,626 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@addeb{STARTING}[12.0.12,sto=0] @6145615ms
+2024-11-12 11:11:45,951 [qtp387924560-2270] INFO  o.e.j.e.nested.ContextHandler._wse - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2024-11-12 11:30:10,112 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-12 11:30:11,606 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.soa:AppliREST:0.0.1-SNAPSHOT @ /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/pom.xml.
+2024-11-12 11:30:12,678 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/main/java
+2024-11-12 11:30:12,678 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/main/resources
+2024-11-12 11:30:12,679 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AppliREST/src/test/java
+2024-11-12 11:30:12,679 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AppliREST/src/test/resources
+2024-11-12 11:30:12,961 [Worker-58: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AppliREST
+2024-11-12 11:30:13,048 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 0,00 sec 
+2024-11-12 11:30:13,507 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 11:30:13,510 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 11:30:13,511 [Worker-57: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AppliREST
+2024-11-12 11:30:13,511 [Worker-57: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AppliREST
+2024-11-12 11:38:28,720 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 11:38:28,725 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-12 11:38:28,728 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 11:38:28,731 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-12 11:39:56,862 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 11:39:56,866 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-12 11:39:56,869 [Worker-61: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 11:39:56,871 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-12 11:40:07,035 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 11:40:07,038 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-12 11:40:07,040 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 11:40:07,041 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-12 11:44:51,616 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 11:44:51,618 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 11:47:52,252 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 11:47:52,254 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 11:48:04,812 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 11:48:04,814 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 11:48:13,048 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 11:48:13,049 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 11:52:13,767 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 11:52:13,769 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 11:52:33,917 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 11:52:33,918 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 11:54:05,811 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 11:54:05,813 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 12:03:39,157 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 12:03:39,160 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 12:04:08,785 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 12:04:08,786 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 12:04:22,517 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 12:04:22,518 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 12:04:58,405 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 12:04:58,406 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 12:05:16,241 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 12:05:16,242 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 12:05:50,314 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 12:05:50,315 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 12:06:44,448 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 12:06:44,450 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 12:06:50,657 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 12:06:50,663 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-12 12:06:50,668 [Worker-59: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-12 12:06:50,670 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-12 12:12:51,161 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 12:12:51,163 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-11-12 12:13:01,589 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-12 12:13:01,590 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources

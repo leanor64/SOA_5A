@@ -13,7 +13,7 @@ public class SOAPApplication {
 		String url1 = "http://" + host + ":" + port1 + "/";
 		String url2 = "http://" + host + ":" + port2 + "/";
 		Endpoint.publish(url1, new GestionUtilisateursWS());
-		Endpoint.publish(url2, new GestionDemandesWS());
+		Endpoint.publish(url2, new GestionAuthentificationWS());
 	}
 	
 	public static void main(String [] args) throws MalformedURLException {
