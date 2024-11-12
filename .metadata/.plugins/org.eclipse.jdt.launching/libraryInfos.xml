@@ -12,5 +12,5 @@
             <entry path="null"/>
         </endorsedDirs>
     </libraryInfo>
-    <libraryInfo home="/usr/lib/jvm/java-17-openjdk-amd64" version="17.0.12"/>
+    <libraryInfo home="/usr/lib/jvm/java-17-openjdk-amd64" version="17.0.13"/>
 </libraryInfos>

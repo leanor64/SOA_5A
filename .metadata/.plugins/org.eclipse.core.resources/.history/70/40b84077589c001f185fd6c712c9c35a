@@ -1,0 +1,15 @@
+package fr.insa.soap;
+
+import javax.jws.WebMethod;
+import javax.jws.WebParam;
+import javax.jws.WebService;
+
+@WebService(serviceName="demandes")
+public class GestionDemandesWS {
+	
+	@WebMethod(operationName="test2")
+	public int test(@WebParam(name="t") String t) {
+		return t.length();
+	}
+
+}

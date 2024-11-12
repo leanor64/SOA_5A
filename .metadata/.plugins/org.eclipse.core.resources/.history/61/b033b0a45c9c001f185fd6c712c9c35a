@@ -1,0 +1,16 @@
+package fr.insa.soap;
+
+import javax.jws.WebMethod;
+import javax.jws.WebParam;
+import javax.jws.WebService;
+
+@WebService(serviceName="users")
+public class GestionUtilisateursWS {
+	
+	@WebMethod(operationName="creation")
+	public String creationUtilisateur(@WebParam(name="nom") String nom, @WebParam(name="prenom") String prenom, @WebParam(name="age") int age, @WebParam(name="adresse") String adresse, @WebParam(name="email") String email, @WebParam(name="mdp") String mdp) {
+		
+		return ("Nom :"+nom+ ", Email :" +email+", Adresse :" +adresse+" was created !");
+	}
+
+}
