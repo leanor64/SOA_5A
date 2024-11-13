@@ -16,19 +16,42 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
 			<item value="AUTOGEN:::org.eclipse.wst.ws.explorer.explorer/org.eclipse.wst.ws.internal.explorer.action.LaunchWSEAction"/>
+			<item value="projectProperties"/>
+			<item value="preferences"/>
 			<item value="editActionSets"/>
 		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.ui.actions"/>
+			<item value="org.eclipse.ui.actions"/>
+			<item value="org.eclipse.ui.actions"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
 			<item value="1"/>
 			<item value="1"/>
 		</list>
 		<list key="textArray">
 			<item value="launch"/>
+			<item value="proper"/>
+			<item value="prefe"/>
 			<item value="cust"/>
 		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="641"/>
+		<item key="DIALOG_Y_ORIGIN" value="135"/>
+		<item key="DIALOG_WIDTH" value="648"/>
+		<item key="DIALOG_HEIGHT" value="815"/>
+		<item key="DIALOG_FONT_NAME" value="1|Sans|10.0|0|GTK|1|"/>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.m2e.core.wizards.Maven2ImportWizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.m2e"/>
+		</list>
+		<section name="ImportExportWizard.dialogBounds">
+		</section>
 	</section>
 </section>
