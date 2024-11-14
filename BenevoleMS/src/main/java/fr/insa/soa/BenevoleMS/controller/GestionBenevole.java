@@ -1,5 +1,7 @@
 package fr.insa.soa.BenevoleMS.controller;
 
+import java.util.concurrent.TimeUnit;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +17,13 @@ public class GestionBenevole {
 	
 	@GetMapping("/benevoles")
 	public int benevoleNumber() {
+		try {
+			TimeUnit.SECONDS.sleep(1);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("Called !");
 		return 100;
 	}
 	
