@@ -79,6 +79,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/DiscoveryMS"/>
+			<item value="/home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/BeneficiaireMS"/>
 			<item value="/home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliMS"/>
 		</list>
 		<list key="projectNameTemplate">
