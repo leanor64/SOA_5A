@@ -17,6 +17,8 @@ public class Demande {
 		this.statut = statut;
 		this.note = note;
 	}
+	
+	public Demande() {}
 
 	// Getters et Setteurs
 	public int getIdBenevole() {

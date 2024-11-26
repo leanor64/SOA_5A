@@ -12,6 +12,7 @@ public class Valideur {
 		this.email = email;
 		this.nom = nom;
 	}
+	public Valideur() {}
 
 	public int getId() {
 		return id;

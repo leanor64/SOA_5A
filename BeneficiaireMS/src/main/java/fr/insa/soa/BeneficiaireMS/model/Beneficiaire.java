@@ -1,6 +1,7 @@
 package fr.insa.soa.BeneficiaireMS.model;
 
 public class Beneficiaire {
+	
 	private String nom;
 	private String prenom;
 	private int age;
@@ -13,14 +14,13 @@ public class Beneficiaire {
 	
 
 	// Constructeurs
-	public Beneficiaire(String nom, String prenom, int age, String adresse, String email, String mdp, int id, int idValideur) {
+	public Beneficiaire(String nom, String prenom, int age, String adresse, String email, String mdp, int idValideur) {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.age = age;
 		this.adresse = adresse;
 		this.email = email;
 		this.mdp = mdp;
-		this.id = id; //TODO : gerer id avec compteur ?
 		this.idValideur = idValideur;	}
 	
 	
@@ -67,16 +67,21 @@ public class Beneficiaire {
 	public int getId() {
 		return id;
 	}
-	
+	public void setId(int id) {
+		this.id = id;
+	}
 	public int getIdValideur() {
 		return idValideur;
 	}
-
 	public void setIdValideur(int idValideur) {
 		this.idValideur = idValideur;
 	}
 
 
-	
+	@Override
+	public String toString() {
+		return "Beneficiaire [nom=" + nom + ", prenom=" + prenom + ", age=" + age + ", adresse=" + adresse + ", email="
+				+ email + ", mdp=" + mdp + ", id=" + id + ", idValideur=" + idValideur + "]";
+	}
 	
 }

@@ -79,6 +79,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AuthentificationMS"/>
+			<item value="/home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/DemandeMS"/>
 			<item value="/home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/ConfigClientMS"/>
 			<item value="/home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/ConfigMS"/>
 			<item value="/home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/ProxyMS"/>
