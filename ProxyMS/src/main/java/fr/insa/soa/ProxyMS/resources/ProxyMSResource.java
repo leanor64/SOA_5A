@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import fr.insa.soa.ProxyMS.model.Beneficiaire;
+import fr.insa.soa.ProxyMS.model.Benevole;
+
 
 @RestController
 @RequestMapping("/benevolat")
@@ -16,10 +19,10 @@ public class ProxyMSResource {
 	
 	@GetMapping("/test")
 	public int benevoleNumber() {
-		int numbenevole = restTemplate.getForObject("http://BenevoleMS/benevoles", int.class);
-		int numbeneficiaire = restTemplate.getForObject("http://BeneficiaireMS/beneficiaires", int.class);
+		Benevole benevole = restTemplate.getForObject("http://BenevoleMS/benevoles", Benevole.class);
+		//Beneficiaire beneficiaire = restTemplate.getForObject("http://BeneficiaireMS/beneficiaires", Beneficiaire.class);
 
-		return numbenevole + numbeneficiaire;
+		return benevole.getId();
 		
 	}
 
