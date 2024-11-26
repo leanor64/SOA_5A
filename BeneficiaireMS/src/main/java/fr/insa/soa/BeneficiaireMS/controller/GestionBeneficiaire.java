@@ -20,7 +20,7 @@ public class GestionBeneficiaire {
 	
 	@GetMapping(value="/beneficiaires/{id}")
 	public Beneficiaire infosBeneficiaire(@PathVariable int id) {
-		Beneficiaire beneficiaire = new Beneficiaire("Esposito", "Cléa", 5, "rue de la paix", "espo@mimi.fr", "1234", id);
+		Beneficiaire beneficiaire = new Beneficiaire("Esposito", "Cléa", 5, "rue de la paix", "espo@mimi.fr", "1234", id, 23);
 		return beneficiaire;
 	}
 	

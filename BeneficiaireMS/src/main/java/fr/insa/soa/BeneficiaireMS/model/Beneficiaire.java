@@ -8,11 +8,12 @@ public class Beneficiaire {
 	private String email;
 	private String mdp;
 	private int id;
+	private int idValideur;
 	
 	
 
 	// Constructeurs
-	public Beneficiaire(String nom, String prenom, int age, String adresse, String email, String mdp, int id) {
+	public Beneficiaire(String nom, String prenom, int age, String adresse, String email, String mdp, int id, int idValideur) {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.age = age;
@@ -20,8 +21,10 @@ public class Beneficiaire {
 		this.email = email;
 		this.mdp = mdp;
 		this.id = id; //TODO : gerer id avec compteur ?
-	}
+		this.idValideur = idValideur;	}
 	
+	
+
 	public Beneficiaire() {}
 	
 	//Méthodes
@@ -64,6 +67,15 @@ public class Beneficiaire {
 	public int getId() {
 		return id;
 	}
+	
+	public int getIdValideur() {
+		return idValideur;
+	}
+
+	public void setIdValideur(int idValideur) {
+		this.idValideur = idValideur;
+	}
+
 
 	
 	
