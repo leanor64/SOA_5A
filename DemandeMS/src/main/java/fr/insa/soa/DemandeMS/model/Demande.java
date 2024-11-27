@@ -2,16 +2,16 @@ package fr.insa.soa.DemandeMS.model;
 
 public class Demande {
 	private int idBenevole;
-	private int idBeneficiare;
+	private int idBeneficiaire;
 	private String titre;
 	private String description;
 	private Statut statut;
 	private int note;
 	
 	// Constructeur
-	public Demande(int idBenevole, int idBeneficiare, String titre, String description, Statut statut, int note) {
+	public Demande(int idBenevole, int idBeneficiaire, String titre, String description, Statut statut, int note) {
 		this.idBenevole = idBenevole;
-		this.idBeneficiare = idBeneficiare;
+		this.idBeneficiaire = idBeneficiaire;
 		this.titre = titre;
 		this.description = description;
 		this.statut = statut;
@@ -28,11 +28,11 @@ public class Demande {
 	}
 	
 	public int getIdBeneficiare() {
-		return idBeneficiare;
+		return idBeneficiaire;
 	}
 
-	public void setIdBeneficiare(int idBeneficiare) {
-		this.idBeneficiare = idBeneficiare;
+	public void setIdBeneficiare(int idBeneficiaire) {
+		this.idBeneficiaire = idBeneficiaire;
 	}
 
 	public String getTitre() {

@@ -21,7 +21,6 @@ public class GestionAuthentification {
 		
 		try {
 		    Connection conn = DriverManager.getConnection(url, user, passwd);    
-		    System.out.println("********");
 		    Statement state = conn.createStatement();
 		    String commande = "";
 

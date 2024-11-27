@@ -8,19 +8,19 @@ public class Beneficiaire {
 	private String email;
 	private String mdp;
 	private int id;
-	private int idValideur;
+	private String emailValideur;
 	
 	
 
 	// Constructeurs
-	public Beneficiaire(String nom, String prenom, int age, String adresse, String email, String mdp, int idValideur) {
+	public Beneficiaire(String nom, String prenom, int age, String adresse, String email, String mdp, String emailValideur) {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.age = age;
 		this.adresse = adresse;
 		this.email = email;
 		this.mdp = mdp;
-		this.idValideur = idValideur;	}
+		this.emailValideur = emailValideur;	}
 	
 	
 
@@ -69,17 +69,17 @@ public class Beneficiaire {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public int getIdValideur() {
-		return idValideur;
+	public String getEmailValideur() {
+		return emailValideur;
 	}
-	public void setIdValideur(int idValideur) {
-		this.idValideur = idValideur;
+	public void setEmailValideur(String emailValideur) {
+		this.emailValideur = emailValideur;
 	}
 
 	@Override
 	public String toString() {
 		return "Beneficiaire [nom=" + nom + ", prenom=" + prenom + ", age=" + age + ", adresse=" + adresse + ", email="
-				+ email + ", mdp=" + mdp + ", id=" + id + ", idValideur=" + idValideur + "]";
+				+ email + ", mdp=" + mdp + ", id=" + id + ", emailValideur=" + emailValideur + "]";
 	}
 	
 	
