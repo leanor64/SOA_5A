@@ -12,14 +12,13 @@ public class Benevole {
 	
 
 	// Constructeurs
-	public Benevole(String nom, String prenom, int age, String adresse, String email, String mdp, int id) {
+	public Benevole(String nom, String prenom, int age, String adresse, String email, String mdp) {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.age = age;
 		this.adresse = adresse;
 		this.email = email;
 		this.mdp = mdp;
-		this.id = id; //TODO : gerer id avec compteur ?
 	}
 	
 	public Benevole() {}
@@ -63,6 +62,15 @@ public class Benevole {
 	}
 	public int getId() {
 		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	@Override
+	public String toString() {
+		return "Benevole [nom=" + nom + ", prenom=" + prenom + ", age=" + age + ", adresse=" + adresse + ", email="
+				+ email + ", mdp=" + mdp + ", id=" + id + "]";
 	}
 
 	
