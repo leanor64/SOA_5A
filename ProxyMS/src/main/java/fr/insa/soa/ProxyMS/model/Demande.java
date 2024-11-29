@@ -7,6 +7,7 @@ public class Demande {
 	private String description;
 	private Statut statut;
 	private int note;
+	private int id;
 	
 	// Constructeur
 	public Demande(int idBenevole, int idBeneficiare, String titre, String description, Statut statut, int note) {
@@ -68,6 +69,16 @@ public class Demande {
 	public void setNote(int note) {
 		this.note = note;
 	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	
 	
 		
 

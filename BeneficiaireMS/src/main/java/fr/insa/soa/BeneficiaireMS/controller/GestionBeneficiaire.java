@@ -63,6 +63,30 @@ public class GestionBeneficiaire {
 
 		return benef;
 	}
+	
+	// Pour récupérer un id bénéficiaire grâce à son email
+		@GetMapping(value = "/id/{email}")
+		public int idBeneficiaire(@PathVariable String email) {
+			int id=0;
+			
+			try {
+				Connection conn = DriverManager.getConnection(urlDB, userDB, pswdDB);
+				Statement state = conn.createStatement();
+				String query = "SELECT id FROM beneficiaires WHERE email='" + email + "';";
+				ResultSet result = state.executeQuery(query);
+				
+				if (result.next()) {
+					id = result.getInt(1);
+				}
+				state.close();
+				conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			return id;
+		}
+
+
 
 	// Pour ajouter un bénéficiciaire dans BDD
 	@PostMapping(value = "/createBenef", consumes = MediaType.APPLICATION_JSON)
@@ -89,9 +113,9 @@ public class GestionBeneficiaire {
 			int result = state.executeUpdate(query);
 
 	        if (result > 0) {
-	            System.out.println("Le bénéficiare a été ajouté avec succès");
+	            System.out.println("Le bénéficiaire a été ajouté avec succès");
 	        } else {
-	            System.out.println("Aucun bénéficiaire ne possède cet id");
+	            System.out.println("Erreur lors de l'ajout du bénéficiaire");
 	        }
 			
 		} catch (SQLException e) {

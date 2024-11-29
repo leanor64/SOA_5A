@@ -7,6 +7,7 @@ public class Demande {
 	private String description;
 	private Statut statut;
 	private int note;
+	private int id;
 	
 	// Constructeur
 	public Demande(int idBenevole, int idBeneficiaire, String titre, String description, Statut statut, int note) {
@@ -17,6 +18,7 @@ public class Demande {
 		this.statut = statut;
 		this.note = note;
 	}
+	public Demande () {}
 
 	// Getters et Setteurs
 	public int getIdBenevole() {
@@ -27,7 +29,7 @@ public class Demande {
 		this.idBenevole = idBenevole;
 	}
 	
-	public int getIdBeneficiare() {
+	public int getIdBeneficiaire() {
 		return idBeneficiaire;
 	}
 
@@ -66,7 +68,12 @@ public class Demande {
 	public void setNote(int note) {
 		this.note = note;
 	}
-	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 		
 
 }

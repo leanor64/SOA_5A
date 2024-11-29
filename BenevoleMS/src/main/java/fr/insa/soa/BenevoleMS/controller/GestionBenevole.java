@@ -66,6 +66,29 @@ public class GestionBenevole {
 
 		return benev;
 	}
+	
+	// Pour récupérer un id bénévole grâce à son email
+		@GetMapping(value = "/id/{email}")
+		public int idBenevole(@PathVariable String email) {
+			int id=0;
+			
+			try {
+				Connection conn = DriverManager.getConnection(urlDB, userDB, pswdDB);
+				Statement state = conn.createStatement();
+				String query = "SELECT id FROM benevoles WHERE email='" + email + "';";
+				ResultSet result = state.executeQuery(query);
+				
+				if (result.next()) {
+					id = result.getInt(1);
+				}
+				state.close();
+				conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			return id;
+		}
+
 
 	// Pour ajouter un bénévole dans BDD
 	@PostMapping(value = "/createBenev", consumes = MediaType.APPLICATION_JSON)
@@ -93,7 +116,7 @@ public class GestionBenevole {
 	        if (result > 0) {
 	            System.out.println("Le bénévole a été ajouté avec succès");
 	        } else {
-	            System.out.println("Aucun bénévole ne possède cet id");
+	            System.out.println("Erreur lors de l'ajout du bénévole");
 	        }
 			
 		} catch (SQLException e) {
