@@ -29,7 +29,7 @@ public class GestionDemande {
 	
 	//GET : récupérer toutes les demandes d'un utilisateur (bénéficiaire ou bénévole)
 	@GetMapping(value = "/demandes/{typeUtilisateur}/{id}")
-	public List<Demande> getDemandes(@PathVariable String typeUtilisateur, @PathVariable int id) {
+	public String getDemandes(@PathVariable String typeUtilisateur, @PathVariable int id) {
 		
 		List<Demande> list = new ArrayList<Demande>();
 		Connection conn = null;
@@ -58,6 +58,7 @@ public class GestionDemande {
 	            
 
 	            list.add(demande);
+	            
 	        }
 	    } catch (SQLException e) {
 	        e.printStackTrace();
@@ -70,7 +71,7 @@ public class GestionDemande {
 	        }
 	    }
 
-	    return list;
+	    return list.toString();
 	}
 
 
@@ -117,10 +118,11 @@ public class GestionDemande {
 	
 	//PUT : Lorsqu'un bénéficiaire souhaite modifier les infos de sa demande
 	@PutMapping(value = "/updateInfosDemande", consumes = MediaType.APPLICATION_JSON)
-	public Demande updateDemande(@RequestBody Demande dem) {
+	public String updateDemande(@RequestBody Demande dem) {
 		
 	    Connection conn = null;
 	    Statement state = null;
+	    String str = "";
 
 	    try {
 	        conn = DriverManager.getConnection(urlDB, userDB, pswdDB);
@@ -134,9 +136,9 @@ public class GestionDemande {
 	        int result = state.executeUpdate(query);
 
 	        if (result > 0) {
-	            System.out.println("La demande a été modifié avec succès");
+	            str = "La demande a été modifié avec succès";
 	        } else {
-	            System.out.println("Aucune demande ne possède cet id");
+	            str = "Aucune demande ne possède cet id";
 	        }
 
 	    } catch (SQLException e) {
@@ -150,7 +152,7 @@ public class GestionDemande {
 	        }
 	    }
 
-	    return dem;
+	    return str;
 	}
 	
 	//PUT : Lorsqu'un bénévole accepte une demande

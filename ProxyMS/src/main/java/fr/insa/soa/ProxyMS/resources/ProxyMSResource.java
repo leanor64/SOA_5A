@@ -1,5 +1,8 @@
 package fr.insa.soa.ProxyMS.resources;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,6 +16,7 @@ import org.springframework.web.client.RestTemplate;
 
 import fr.insa.soa.ProxyMS.model.Beneficiaire;
 import fr.insa.soa.ProxyMS.model.Benevole;
+import fr.insa.soa.ProxyMS.model.Demande;
 import jakarta.ws.rs.core.MediaType;
 
 
@@ -73,9 +77,7 @@ public class ProxyMSResource {
 	@DeleteMapping(value="/delete/{table}/{email}")
 	public String suppressionBenevole(@PathVariable String table, @PathVariable String email) {
 		if (table.equals("beneficiaires")) {
-			System.out.println("test1");
 			int id = restTemplate.getForObject("http://BeneficiaireMS/id/"+email, int.class);	
-			System.out.println("test2");
 			restTemplate.delete("http://BeneficiaireMS/deleteBenef/"+id);
         	return "Utilisateur bénéficiaire = "+email+" supprimé avec succès.";
 
@@ -85,5 +87,47 @@ public class ProxyMSResource {
         	return "Utilisateur bénévole = "+email+" supprimé avec succès.";
    	}
 	}
+	
+	//Gestion de la récupération de toutes les demandes d'un utilisateur
+	@GetMapping(value="/demandes/{typeUtilisateur}/{id}")
+	public String getDemandes(@PathVariable String typeUtilisateur, @PathVariable int id) {
+		String list = restTemplate.getForObject("http://DemandeMS/demandes/"+typeUtilisateur+"/"+id, String.class);
+		return list;
+	}
+	
+	//Gestion de la création d'une demande
+	@PostMapping(value="/createDemande", consumes = MediaType.APPLICATION_JSON)
+	public String creationDemande(@RequestBody Demande d) {
+		Demande dem = restTemplate.postForObject("http://DemandeMS/createDemande",d, Demande.class)	;		
+		return "Demande ajoutée : "+dem.toString();
+	}
+	
+	//Gestion de la modification des infos demande
+	@PutMapping(value="/modifInfosDemande", consumes = MediaType.APPLICATION_JSON)
+	public String modifInfosDemande(@RequestBody Demande d) {
+		restTemplate.put("http://DemandeMS/updateInfosDemande",d)	;   	
+   	return "Les infos de la demande ont bien été modifiées";
+	}
+	
+	//Gestion de l'acceptation d'une demande
+	@PutMapping(value="/acceptDemande/{id}/{idBenevole}")
+	public String acceptDemande(@PathVariable int id ,@PathVariable int idBenevole) {
+		restTemplate.put("http://DemandeMS/acceptDemande/"+id+"/"+idBenevole,id,idBenevole);   	
+		return "Demande modifiée avec succès";
+	}
+		
+	//Gestion de la cloture d'une demande
+	@PutMapping(value="/closeDemande/{id}/{note}")
+	public String closeDemande(@PathVariable int id ,@PathVariable int note) {
+   	restTemplate.put("http://DemandeMS/closeDemande/"+id+"/"+note,id,note)	;   	
+   	return "Demande modifiée avec succès";
+	}
+	
+	//Gestion de la suppression d'une demande
+		@DeleteMapping(value="/deleteDemande/{id}")
+		public String deleteDemande(@PathVariable int id) {
+			restTemplate.delete("http://DemandeMS/deleteDemande/"+id);
+        	return "Demande supprimée avec succès.";
+		}
 
 }
