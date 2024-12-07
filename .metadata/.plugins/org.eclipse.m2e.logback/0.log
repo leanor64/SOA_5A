@@ -5535,3 +5535,135 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2024-11-29 18:25:11,816 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
 2024-11-29 18:25:11,822 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
 2024-11-29 18:25:11,823 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/ProxyMS/src/test/resources
+2024-11-29 18:30:20,763 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-29 18:30:20,770 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-29 18:30:20,771 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/ProxyMS/src/test/resources
+2024-12-02 15:39:52,463 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-02 15:44:42,649 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.0.12; built: 2024-07-25T21:58:37.668Z; git: cc6f1b74db755fed228b50701ad967aeaa68e83f; jvm 22.0.2+9
+2024-12-02 15:44:42,720 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@1dac05d1{/wse,/wse,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@42585d45{STARTED}}
+2024-12-02 15:44:42,720 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-12-02 15:44:42,728 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4d2a2d2c{HTTP/1.1, (http/1.1)}{0.0.0.0:46525}
+2024-12-02 15:44:42,791 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@3a7cfd1d{STARTING}[12.0.12,sto=0] @329934ms
+2024-12-02 15:44:43,285 [qtp1907935173-159] INFO  o.e.j.e.nested.ContextHandler._wse - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2024-12-02 15:56:31,149 [qtp1907935173-258] WARN  o.e.jetty.ee8.nested.HttpChannel - /wse/wsdl_content.jsp
+org.apache.jasper.JasperException: An exception occurred processing [/wsdl_content.jsp] at line [149]
+
+146:     var x = 0;
+147:         
+148: <%
+149:        Iterator it = finder.getWebServicesByCategory(category,null);
+150:        if(category.getId().equals("org.eclipse.wst.ws.internal.wsfinder.category.workspace")){
+151: 
+152:     	   workspaceStart = wsInfoCache.size();
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:610)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:499)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:376)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:324)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.eclipse.equinox.jsp.jasper.JspServlet.service(JspServlet.java:180)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:181)
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceRuntimeImpl$LegacyServlet.service(HttpServiceRuntimeImpl.java:1403)
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:154)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:66)
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:112)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ProxyServlet.dispatch(ProxyServlet.java:141)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ProxyServlet.preprocess(ProxyServlet.java:113)
+	at org.eclipse.equinox.http.servlet.internal.servlet.ProxyServlet.service(ProxyServlet.java:103)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:340)
+	at org.eclipse.jetty.ee8.servlet.ServletHolder.handle(ServletHolder.java:640)
+	at org.eclipse.jetty.ee8.servlet.ServletHandler.doHandle(ServletHandler.java:456)
+	at org.eclipse.jetty.ee8.nested.ScopedHandler.nextHandle(ScopedHandler.java:181)
+	at org.eclipse.jetty.ee8.nested.SessionHandler.doHandle(SessionHandler.java:516)
+	at org.eclipse.jetty.ee8.nested.ScopedHandler.nextHandle(ScopedHandler.java:181)
+	at org.eclipse.jetty.ee8.nested.ContextHandler.doHandle(ContextHandler.java:878)
+	at org.eclipse.jetty.ee8.nested.ScopedHandler.nextScope(ScopedHandler.java:152)
+	at org.eclipse.jetty.ee8.servlet.ServletHandler.doScope(ServletHandler.java:423)
+	at org.eclipse.jetty.ee8.nested.ScopedHandler.nextScope(ScopedHandler.java:150)
+	at org.eclipse.jetty.ee8.nested.SessionHandler.doScope(SessionHandler.java:500)
+	at org.eclipse.jetty.ee8.nested.ScopedHandler.nextScope(ScopedHandler.java:150)
+	at org.eclipse.jetty.ee8.nested.ContextHandler.doScope(ContextHandler.java:823)
+	at org.eclipse.jetty.ee8.nested.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.ee8.nested.ContextHandler.handle(ContextHandler.java:1421)
+	at org.eclipse.jetty.ee8.nested.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1294)
+	at org.eclipse.jetty.ee8.nested.HttpChannel.dispatch(HttpChannel.java:624)
+	at org.eclipse.jetty.ee8.nested.HttpChannel.handle(HttpChannel.java:456)
+	at org.eclipse.jetty.ee8.nested.ContextHandler$CoreContextHandler$CoreToNestedHandler.handle(ContextHandler.java:2365)
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.Server.handle(Server.java:181)
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:648)
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:403)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:478)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:441)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:979)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1209)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1164)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.Collection.toArray()" because "c" is null
+	at java.base/java.util.ArrayList.addAll(ArrayList.java:753)
+	at org.eclipse.jst.ws.internal.cxf.consumption.core.locator.CXFWebServiceLocator.getWebServices(CXFWebServiceLocator.java:52)
+	at org.eclipse.jst.ws.internal.cxf.consumption.core.locator.CXFWebServiceLocator.getWebServices(CXFWebServiceLocator.java:43)
+	at org.eclipse.wst.ws.internal.wsfinder.WebServiceFinder.getWebServicesByCategoryId(WebServiceFinder.java:180)
+	at org.eclipse.wst.ws.internal.wsfinder.WebServiceFinder.getWebServicesByCategoryId(WebServiceFinder.java:148)
+	at org.eclipse.wst.ws.internal.wsfinder.WebServiceFinder.getWebServicesByCategory(WebServiceFinder.java:115)
+	at org.apache.jsp.wsdl_005fcontent_jsp._jspService(wsdl_005fcontent_jsp.java:355)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	... 49 common frames omitted
+2024-12-02 16:00:09,920 [Worker-38: Launching SOAPApplication] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-12-02 16:00:09,923 [Worker-38: Launching SOAPApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-02 16:00:09,932 [Worker-38: Launching SOAPApplication] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-12-02 16:00:09,934 [Worker-38: Launching SOAPApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-12-02 16:00:42,358 [Worker-38: Launching SOAPApplication] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-12-02 16:00:42,361 [Worker-38: Launching SOAPApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-02 16:00:42,364 [Worker-38: Launching SOAPApplication] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-12-02 16:00:42,367 [Worker-38: Launching SOAPApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-12-02 16:26:57,258 [Framework stop - Equinox Container: 4a32bfb3-2d65-4e62-a9ab-de375ce31f9c] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@3a7cfd1d{STOPPING}[12.0.12,sto=0]
+2024-12-02 16:26:57,265 [Framework stop - Equinox Container: 4a32bfb3-2d65-4e62-a9ab-de375ce31f9c] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@4d2a2d2c{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+2024-12-07 14:52:28,921 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-07 15:04:30,072 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-07 15:35:40,057 [Worker-35: Launching DiscoveryMsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-07 15:35:40,092 [Worker-35: Launching DiscoveryMsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-07 15:35:40,096 [Worker-35: Launching DiscoveryMsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/DiscoveryMS/src/test/resources
+2024-12-07 15:35:44,093 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-07 15:35:44,096 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AppliREST/src/test/resources
+2024-12-07 15:37:09,952 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-12-07 15:37:09,954 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-07 15:37:09,969 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-12-07 15:37:09,971 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-12-07 15:37:14,496 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-07 15:37:14,505 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-07 15:37:14,508 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/AuthentificationMS/src/test/resources
+2024-12-07 15:37:18,072 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-07 15:37:18,082 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-07 15:37:18,085 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/BeneficiaireMS/src/test/resources
+2024-12-07 15:37:21,357 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-07 15:37:21,367 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-07 15:37:21,370 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/BenevoleMS/src/test/resources
+2024-12-07 15:37:25,038 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-07 15:37:25,065 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-07 15:37:25,069 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/ConfigClientMS/src/test/resources
+2024-12-07 15:37:30,014 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-07 15:37:30,024 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-07 15:37:30,028 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/ConfigMS/src/test/resources
+2024-12-07 15:37:33,771 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-07 15:37:33,780 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-07 15:37:33,784 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/DemandeMS/src/test/resources
+2024-12-07 15:37:38,803 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-07 15:37:38,815 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-07 15:37:38,818 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/ProxyMS/src/test/resources
+2024-12-07 15:43:35,256 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-07 15:51:24,026 [Worker-218: Launching ProxyMSApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-07 15:51:24,074 [Worker-218: Launching ProxyMSApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-07 15:51:24,083 [Worker-218: Launching ProxyMSApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/norgeux/Bureau/5SDBD_SOA/AppliBenevolat/ProxyMS/src/test/resources

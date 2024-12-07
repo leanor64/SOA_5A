@@ -25,7 +25,7 @@ public class GestionUtilisateursWS {
 		
 		
 		//String commande = "INSERT into users VALUES ('" +nom+ "','" +prenom+ "','" +age+"','" +role+ "','" +email+"','" +adresse+"','" +mdp+"');";
-		System.out.println ("L\'utilisateur" +nom+ " a été ajouté !");
+		System.out.println ("L\'utilisateur " +nom+ " a été ajouté !");
 	}
 	
 	@WebMethod(operationName="suppression")
@@ -46,7 +46,7 @@ public class GestionUtilisateursWS {
 			@WebParam(name="mdp") String mdp) {
 		
 		//String commande = "UPDATE users SET nom='" +nom+ "', prenom='" +prenom+ "', age='" +age+"', role='" +role+ "', adresse='" +adresse+"', mdp='" +mdp+"' WHERE email='"+email+"';";
-		System.out.println ("L\'utilisateur" +nom+ " a été modifié !");
+		System.out.println ("L\'utilisateur " +nom+ " a été modifié !");
 	
 	
 	}

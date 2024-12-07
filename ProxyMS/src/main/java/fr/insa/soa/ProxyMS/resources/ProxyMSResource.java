@@ -75,17 +75,17 @@ public class ProxyMSResource {
 	
 	//Gestion de la suppression d'un utilisateur
 	@DeleteMapping(value="/delete/{table}/{email}")
-	public String suppressionBenevole(@PathVariable String table, @PathVariable String email) {
+	public String suppressionUtilisateur(@PathVariable String table, @PathVariable String email) {
 		if (table.equals("beneficiaires")) {
 			int id = restTemplate.getForObject("http://BeneficiaireMS/id/"+email, int.class);	
 			restTemplate.delete("http://BeneficiaireMS/deleteBenef/"+id);
         	return "Utilisateur bénéficiaire = "+email+" supprimé avec succès.";
 
-   	} else {
+		} else {
     		int id = restTemplate.getForObject("http://BenevoleMS/id/"+email, int.class);	
         	restTemplate.delete("http://BenevoleMS/deleteBenev/"+id)	;   	
         	return "Utilisateur bénévole = "+email+" supprimé avec succès.";
-   	}
+		}
 	}
 	
 	//Gestion de la récupération de toutes les demandes d'un utilisateur
@@ -124,10 +124,10 @@ public class ProxyMSResource {
 	}
 	
 	//Gestion de la suppression d'une demande
-		@DeleteMapping(value="/deleteDemande/{id}")
-		public String deleteDemande(@PathVariable int id) {
-			restTemplate.delete("http://DemandeMS/deleteDemande/"+id);
-        	return "Demande supprimée avec succès.";
-		}
+	@DeleteMapping(value="/deleteDemande/{id}")
+	public String deleteDemande(@PathVariable int id) {
+		restTemplate.delete("http://DemandeMS/deleteDemande/"+id);
+    	return "Demande supprimée avec succès.";
+	}
 
 }
