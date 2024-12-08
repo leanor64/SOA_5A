@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy JAR app to Azure Web App - DiscoveryMS
+name: Build and deploy JAR app to Azure Web App - BenevoleMS
 
 on:
   push:
@@ -23,13 +23,13 @@ jobs:
           distribution: 'microsoft'
 
       - name: Build with Maven
-        run: mvn clean install -f DiscoveryMS/pom.xml
+        run: mvn clean install -f BenevoleMS/pom.xml
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: java-app
-          path: '${{ github.workspace }}/DiscoveryMS/target/*.jar'
+          path: '${{ github.workspace }}/BenevoleMS/target/*.jar'
 
   deploy:
     runs-on: ubuntu-latest
@@ -49,15 +49,15 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_AF852828210E40F8B0EA3DEC9CDAC529 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_7CA314EDA731489991E356D4EE4DD2E9 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_7C034D632125404289039B20C7C0A284 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_30BB1FA7A79C4701AC3F72BA30D9AD2C }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_6B8C751E8DA74CBDB5A1D3E816D31E61 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_1C68B7035EE94486B344DB65D3689872 }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'DiscoveryMS'
+          app-name: 'BenevoleMS'
           slot-name: 'Production'
           package: '*.jar'
           
