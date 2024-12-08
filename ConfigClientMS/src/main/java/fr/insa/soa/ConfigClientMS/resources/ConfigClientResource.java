@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConfigClientResource {
 	
+	
 	@Value("${server.port}")
 	private String serverPort;
 	@Value("${db.connection}")
